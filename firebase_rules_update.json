@@ -1,0 +1,221 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$uid": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "favorites": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "bookings": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "ownerBookings": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "notifications": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "readNotifications": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "reviews": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "payments": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "vipPurchases": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        },
+        "viewedRooms": {
+          ".read": "auth != null",
+          ".write": "auth != null",
+          ".indexOn": ["viewedAt"]
+        },
+        "role": {
+          ".read": "auth != null"
+        }
+      }
+    },
+    "rooms": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["status", "timestamp", "viewCount", "district", "ward", "price", "isVip", "vipPriority", "vipEndDate"],
+      "$roomId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "bookings": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["tenantId", "ownerId", "status", "bookingDateTime"],
+      "$bookingId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "payments": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["userId", "status", "createdAt", "orderId"],
+      "$paymentId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "vipSubscriptions": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["roomId", "userId", "status", "endDate"],
+      "$subscriptionId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "notifications": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["timestamp", "type", "adminId"],
+      "$notificationId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "reviews": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["roomId", "reviewerId", "rating", "timestamp"],
+      "$reviewId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "reviewReplies": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["reviewId", "replierId", "timestamp"],
+      "$replyId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "reports": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["timestamp", "status", "roomId"],
+      "$reportId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "conversations": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["lastMessageTime", "userId"],
+      "$conversationId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "messages": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["conversationId", "timestamp", "senderId"],
+      "$messageId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "user_conversations": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["user1Id", "user2Id", "lastMessageTime"],
+      "$conversationId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "user_messages": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["conversationId", "timestamp", "senderId"],
+      "$messageId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "admin": {
+      ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      "stats": {
+        ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+      },
+      "analytics": {
+        ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+      }
+    },
+    "system": {
+      ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      "config": {
+        ".read": "auth != null",
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+      },
+      "maintenance": {
+        ".read": "auth != null",
+        ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+      }
+    },
+    "search": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "index": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "suggestions": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "analytics": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "views": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "clicks": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "searches": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "cache": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "logs": {
+      ".read": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'",
+      ".write": "auth != null"
+    }
+  }
+}
+

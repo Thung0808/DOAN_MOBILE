@@ -1,0 +1,718 @@
+[
+  {
+    "code": 79,
+    "name": "Thành phố Hồ Chí Minh",
+    "districts": [
+      {
+        "code": 760,
+        "name": "Quận 1",
+        "wards": [
+          {"code": 26734, "name": "Phường Bến Nghé"},
+          {"code": 26737, "name": "Phường Bến Thành"},
+          {"code": 26740, "name": "Phường Cầu Kho"},
+          {"code": 26743, "name": "Phường Cầu Ông Lãnh"},
+          {"code": 26746, "name": "Phường Cô Giang"},
+          {"code": 26749, "name": "Phường Đa Kao"},
+          {"code": 26752, "name": "Phường Nguyễn Cư Trinh"},
+          {"code": 26755, "name": "Phường Nguyễn Thái Bình"},
+          {"code": 26758, "name": "Phường Phạm Ngũ Lão"},
+          {"code": 26761, "name": "Phường Tân Định"}
+        ]
+      },
+      {
+        "code": 761,
+        "name": "Quận 12",
+        "wards": [
+          {"code": 26764, "name": "Phường An Phú Đông"},
+          {"code": 26767, "name": "Phường Đông Hưng Thuận"},
+          {"code": 26770, "name": "Phường Hiệp Thành"},
+          {"code": 26773, "name": "Phường Tân Chánh Hiệp"},
+          {"code": 26776, "name": "Phường Tân Hưng Thuận"},
+          {"code": 26779, "name": "Phường Tân Thới Hiệp"},
+          {"code": 26782, "name": "Phường Tân Thới Nhất"},
+          {"code": 26785, "name": "Phường Thạnh Lộc"},
+          {"code": 26787, "name": "Phường Thạnh Xuân"},
+          {"code": 26788, "name": "Phường Thới An"},
+          {"code": 26791, "name": "Phường Trung Mỹ Tây"}
+        ]
+      },
+      {
+        "code": 764,
+        "name": "Quận Gò Vấp",
+        "wards": [
+          {"code": 26794, "name": "Phường 01"},
+          {"code": 26797, "name": "Phường 03"},
+          {"code": 26800, "name": "Phường 04"},
+          {"code": 26803, "name": "Phường 05"},
+          {"code": 26806, "name": "Phường 06"},
+          {"code": 26809, "name": "Phường 07"},
+          {"code": 26812, "name": "Phường 08"},
+          {"code": 26815, "name": "Phường 09"},
+          {"code": 26818, "name": "Phường 10"},
+          {"code": 26821, "name": "Phường 11"},
+          {"code": 26824, "name": "Phường 12"},
+          {"code": 26827, "name": "Phường 13"},
+          {"code": 26830, "name": "Phường 14"},
+          {"code": 26833, "name": "Phường 15"},
+          {"code": 26836, "name": "Phường 16"},
+          {"code": 26839, "name": "Phường 17"}
+        ]
+      },
+      {
+        "code": 765,
+        "name": "Quận Bình Thạnh",
+        "wards": [
+          {"code": 26842, "name": "Phường 01"},
+          {"code": 26845, "name": "Phường 02"},
+          {"code": 26848, "name": "Phường 03"},
+          {"code": 26851, "name": "Phường 05"},
+          {"code": 26854, "name": "Phường 06"},
+          {"code": 26857, "name": "Phường 07"},
+          {"code": 26860, "name": "Phường 11"},
+          {"code": 26863, "name": "Phường 12"},
+          {"code": 26866, "name": "Phường 13"},
+          {"code": 26869, "name": "Phường 14"},
+          {"code": 26872, "name": "Phường 15"},
+          {"code": 26875, "name": "Phường 17"},
+          {"code": 26876, "name": "Phường 19"},
+          {"code": 26878, "name": "Phường 21"},
+          {"code": 26881, "name": "Phường 22"},
+          {"code": 26882, "name": "Phường 24"},
+          {"code": 26884, "name": "Phường 25"},
+          {"code": 26887, "name": "Phường 26"},
+          {"code": 26890, "name": "Phường 27"},
+          {"code": 26893, "name": "Phường 28"}
+        ]
+      },
+      {
+        "code": 766,
+        "name": "Quận Tân Bình",
+        "wards": [
+          {"code": 26896, "name": "Phường 01"},
+          {"code": 26897, "name": "Phường 02"},
+          {"code": 26898, "name": "Phường 03"},
+          {"code": 26899, "name": "Phường 04"},
+          {"code": 26902, "name": "Phường 05"},
+          {"code": 26905, "name": "Phường 06"},
+          {"code": 26908, "name": "Phường 07"},
+          {"code": 26911, "name": "Phường 08"},
+          {"code": 26914, "name": "Phường 09"},
+          {"code": 26917, "name": "Phường 10"},
+          {"code": 26920, "name": "Phường 11"},
+          {"code": 26923, "name": "Phường 12"},
+          {"code": 26926, "name": "Phường 13"},
+          {"code": 26929, "name": "Phường 14"},
+          {"code": 26932, "name": "Phường 15"}
+        ]
+      },
+      {
+        "code": 767,
+        "name": "Quận Tân Phú",
+        "wards": [
+          {"code": 26935, "name": "Phường Hiệp Tân"},
+          {"code": 26938, "name": "Phường Hòa Thạnh"},
+          {"code": 26941, "name": "Phường Phú Thạnh"},
+          {"code": 26944, "name": "Phường Phú Thọ Hòa"},
+          {"code": 26947, "name": "Phường Phú Trung"},
+          {"code": 26950, "name": "Phường Sơn Kỳ"},
+          {"code": 26953, "name": "Phường Tân Quý"},
+          {"code": 26956, "name": "Phường Tân Sơn Nhì"},
+          {"code": 26959, "name": "Phường Tân Thành"},
+          {"code": 26962, "name": "Phường Tân Thới Hòa"},
+          {"code": 26965, "name": "Phường Tây Thạnh"}
+        ]
+      },
+      {
+        "code": 768,
+        "name": "Quận Phú Nhuận",
+        "wards": [
+          {"code": 26968, "name": "Phường 01"},
+          {"code": 26971, "name": "Phường 02"},
+          {"code": 26974, "name": "Phường 03"},
+          {"code": 26977, "name": "Phường 04"},
+          {"code": 26980, "name": "Phường 05"},
+          {"code": 26983, "name": "Phường 07"},
+          {"code": 26986, "name": "Phường 08"},
+          {"code": 26989, "name": "Phường 09"},
+          {"code": 26992, "name": "Phường 10"},
+          {"code": 26995, "name": "Phường 11"},
+          {"code": 26998, "name": "Phường 12"},
+          {"code": 27001, "name": "Phường 13"},
+          {"code": 27004, "name": "Phường 15"},
+          {"code": 27007, "name": "Phường 17"}
+        ]
+      },
+      {
+        "code": 769,
+        "name": "Thành phố Thủ Đức",
+        "wards": [
+          {"code": 27010, "name": "Phường An Khánh"},
+          {"code": 27013, "name": "Phường An Lợi Đông"},
+          {"code": 27016, "name": "Phường An Phú"},
+          {"code": 27019, "name": "Phường Bình An"},
+          {"code": 27022, "name": "Phường Bình Chiểu"},
+          {"code": 27025, "name": "Phường Bình Thọ"},
+          {"code": 27028, "name": "Phường Bình Trưng Đông"},
+          {"code": 27031, "name": "Phường Bình Trưng Tây"},
+          {"code": 27034, "name": "Phường Cát Lái"},
+          {"code": 27037, "name": "Phường Hiệp Bình Chánh"},
+          {"code": 27040, "name": "Phường Hiệp Bình Phước"},
+          {"code": 27043, "name": "Phường Linh Chiểu"},
+          {"code": 27046, "name": "Phường Linh Đông"},
+          {"code": 27049, "name": "Phường Linh Tây"},
+          {"code": 27052, "name": "Phường Linh Trung"},
+          {"code": 27055, "name": "Phường Linh Xuân"},
+          {"code": 27058, "name": "Phường Tam Bình"},
+          {"code": 27061, "name": "Phường Tam Phú"},
+          {"code": 27064, "name": "Phường Thạnh Mỹ Lợi"},
+          {"code": 27067, "name": "Phường Thảo Điền"},
+          {"code": 27070, "name": "Phường Thủ Thiêm"},
+          {"code": 27073, "name": "Phường Trường Thọ"}
+        ]
+      },
+      {
+        "code": 770,
+        "name": "Quận 3",
+        "wards": [
+          {"code": 27076, "name": "Phường 01"},
+          {"code": 27079, "name": "Phường 02"},
+          {"code": 27082, "name": "Phường 03"},
+          {"code": 27085, "name": "Phường 04"},
+          {"code": 27088, "name": "Phường 05"},
+          {"code": 27091, "name": "Phường 06"},
+          {"code": 27094, "name": "Phường 07"},
+          {"code": 27097, "name": "Phường 08"},
+          {"code": 27100, "name": "Phường 09"},
+          {"code": 27103, "name": "Phường 10"},
+          {"code": 27106, "name": "Phường 11"},
+          {"code": 27109, "name": "Phường 12"},
+          {"code": 27112, "name": "Phường 13"},
+          {"code": 27115, "name": "Phường 14"}
+        ]
+      },
+      {
+        "code": 771,
+        "name": "Quận 10",
+        "wards": [
+          {"code": 27118, "name": "Phường 01"},
+          {"code": 27121, "name": "Phường 02"},
+          {"code": 27124, "name": "Phường 04"},
+          {"code": 27127, "name": "Phường 05"},
+          {"code": 27130, "name": "Phường 06"},
+          {"code": 27133, "name": "Phường 07"},
+          {"code": 27136, "name": "Phường 08"},
+          {"code": 27139, "name": "Phường 09"},
+          {"code": 27142, "name": "Phường 10"},
+          {"code": 27145, "name": "Phường 11"},
+          {"code": 27148, "name": "Phường 12"},
+          {"code": 27151, "name": "Phường 13"},
+          {"code": 27154, "name": "Phường 14"},
+          {"code": 27157, "name": "Phường 15"}
+        ]
+      },
+      {
+        "code": 772,
+        "name": "Quận 11",
+        "wards": [
+          {"code": 27160, "name": "Phường 01"},
+          {"code": 27163, "name": "Phường 02"},
+          {"code": 27166, "name": "Phường 03"},
+          {"code": 27169, "name": "Phường 04"},
+          {"code": 27172, "name": "Phường 05"},
+          {"code": 27175, "name": "Phường 06"},
+          {"code": 27178, "name": "Phường 07"},
+          {"code": 27181, "name": "Phường 08"},
+          {"code": 27184, "name": "Phường 09"},
+          {"code": 27187, "name": "Phường 10"},
+          {"code": 27190, "name": "Phường 11"},
+          {"code": 27193, "name": "Phường 12"},
+          {"code": 27196, "name": "Phường 13"},
+          {"code": 27199, "name": "Phường 14"},
+          {"code": 27202, "name": "Phường 15"},
+          {"code": 27208, "name": "Phường 16"}
+        ]
+      },
+      {
+        "code": 773,
+        "name": "Quận 4",
+        "wards": [
+          {"code": 27211, "name": "Phường 01"},
+          {"code": 27214, "name": "Phường 02"},
+          {"code": 27217, "name": "Phường 03"},
+          {"code": 27220, "name": "Phường 04"},
+          {"code": 27223, "name": "Phường 05"},
+          {"code": 27226, "name": "Phường 06"},
+          {"code": 27229, "name": "Phường 08"},
+          {"code": 27232, "name": "Phường 09"},
+          {"code": 27235, "name": "Phường 10"},
+          {"code": 27238, "name": "Phường 13"},
+          {"code": 27241, "name": "Phường 14"},
+          {"code": 27244, "name": "Phường 15"},
+          {"code": 27247, "name": "Phường 16"},
+          {"code": 27250, "name": "Phường 18"}
+        ]
+      },
+      {
+        "code": 774,
+        "name": "Quận 5",
+        "wards": [
+          {"code": 27253, "name": "Phường 01"},
+          {"code": 27256, "name": "Phường 02"},
+          {"code": 27259, "name": "Phường 03"},
+          {"code": 27262, "name": "Phường 04"},
+          {"code": 27265, "name": "Phường 05"},
+          {"code": 27268, "name": "Phường 06"},
+          {"code": 27271, "name": "Phường 07"},
+          {"code": 27274, "name": "Phường 08"},
+          {"code": 27277, "name": "Phường 09"},
+          {"code": 27280, "name": "Phường 10"},
+          {"code": 27283, "name": "Phường 11"},
+          {"code": 27286, "name": "Phường 12"},
+          {"code": 27289, "name": "Phường 13"},
+          {"code": 27292, "name": "Phường 14"},
+          {"code": 27295, "name": "Phường 15"}
+        ]
+      },
+      {
+        "code": 775,
+        "name": "Quận 6",
+        "wards": [
+          {"code": 27298, "name": "Phường 01"},
+          {"code": 27301, "name": "Phường 02"},
+          {"code": 27304, "name": "Phường 03"},
+          {"code": 27307, "name": "Phường 04"},
+          {"code": 27310, "name": "Phường 05"},
+          {"code": 27313, "name": "Phường 06"},
+          {"code": 27316, "name": "Phường 07"},
+          {"code": 27319, "name": "Phường 08"},
+          {"code": 27322, "name": "Phường 09"},
+          {"code": 27325, "name": "Phường 10"},
+          {"code": 27328, "name": "Phường 11"},
+          {"code": 27331, "name": "Phường 12"},
+          {"code": 27334, "name": "Phường 13"},
+          {"code": 27337, "name": "Phường 14"}
+        ]
+      },
+      {
+        "code": 776,
+        "name": "Quận 8",
+        "wards": [
+          {"code": 27340, "name": "Phường 01"},
+          {"code": 27343, "name": "Phường 02"},
+          {"code": 27346, "name": "Phường 03"},
+          {"code": 27349, "name": "Phường 04"},
+          {"code": 27352, "name": "Phường 05"},
+          {"code": 27355, "name": "Phường 06"},
+          {"code": 27358, "name": "Phường 07"},
+          {"code": 27361, "name": "Phường 08"},
+          {"code": 27364, "name": "Phường 09"},
+          {"code": 27367, "name": "Phường 10"},
+          {"code": 27370, "name": "Phường 11"},
+          {"code": 27373, "name": "Phường 12"},
+          {"code": 27376, "name": "Phường 13"},
+          {"code": 27379, "name": "Phường 14"},
+          {"code": 27382, "name": "Phường 15"},
+          {"code": 27385, "name": "Phường 16"}
+        ]
+      },
+      {
+        "code": 777,
+        "name": "Quận Bình Tân",
+        "wards": [
+          {"code": 27388, "name": "Phường An Lạc"},
+          {"code": 27391, "name": "Phường An Lạc A"},
+          {"code": 27394, "name": "Phường Bình Hưng Hòa"},
+          {"code": 27397, "name": "Phường Bình Hưng Hoà A"},
+          {"code": 27400, "name": "Phường Bình Hưng Hoà B"},
+          {"code": 27403, "name": "Phường Bình Trị Đông"},
+          {"code": 27406, "name": "Phường Bình Trị Đông A"},
+          {"code": 27409, "name": "Phường Bình Trị Đông B"},
+          {"code": 27412, "name": "Phường Tân Tạo"},
+          {"code": 27415, "name": "Phường Tân Tạo A"}
+        ]
+      },
+      {
+        "code": 778,
+        "name": "Quận 7",
+        "wards": [
+          {"code": 27418, "name": "Phường Bình Thuận"},
+          {"code": 27421, "name": "Phường Phú Mỹ"},
+          {"code": 27424, "name": "Phường Phú Thuận"},
+          {"code": 27427, "name": "Phường Tân Hưng"},
+          {"code": 27430, "name": "Phường Tân Kiểng"},
+          {"code": 27433, "name": "Phường Tân Phong"},
+          {"code": 27436, "name": "Phường Tân Phú"},
+          {"code": 27439, "name": "Phường Tân Quy"},
+          {"code": 27442, "name": "Phường Tân Thuận Đông"},
+          {"code": 27445, "name": "Phường Tân Thuận Tây"}
+        ]
+      },
+      {
+        "code": 783,
+        "name": "Huyện Củ Chi",
+        "wards": [
+          {"code": 27448, "name": "Thị trấn Củ Chi"},
+          {"code": 27451, "name": "Xã An Nhơn Tây"},
+          {"code": 27454, "name": "Xã An Phú"},
+          {"code": 27457, "name": "Xã Bình Mỹ"},
+          {"code": 27460, "name": "Xã Hòa Phú"},
+          {"code": 27463, "name": "Xã Nhuận Đức"},
+          {"code": 27466, "name": "Xã Phạm Văn Cội"},
+          {"code": 27469, "name": "Xã Phú Hòa Đông"},
+          {"code": 27472, "name": "Xã Phú Mỹ Hưng"},
+          {"code": 27475, "name": "Xã Phước Hiệp"},
+          {"code": 27478, "name": "Xã Phước Thạnh"},
+          {"code": 27481, "name": "Xã Phước Vĩnh An"},
+          {"code": 27484, "name": "Xã Tân An Hội"},
+          {"code": 27487, "name": "Xã Tân Phú Trung"},
+          {"code": 27490, "name": "Xã Tân Thạnh Đông"},
+          {"code": 27493, "name": "Xã Tân Thạnh Tây"},
+          {"code": 27496, "name": "Xã Tân Thông Hội"},
+          {"code": 27499, "name": "Xã Thái Mỹ"},
+          {"code": 27502, "name": "Xã Trung An"},
+          {"code": 27505, "name": "Xã Trung Lập Hạ"},
+          {"code": 27508, "name": "Xã Trung Lập Thượng"}
+        ]
+      },
+      {
+        "code": 784,
+        "name": "Huyện Hóc Môn",
+        "wards": [
+          {"code": 27511, "name": "Thị trấn Hóc Môn"},
+          {"code": 27514, "name": "Xã Bà Điểm"},
+          {"code": 27517, "name": "Xã Đông Thạnh"},
+          {"code": 27520, "name": "Xã Nhị Bình"},
+          {"code": 27523, "name": "Xã Tân Hiệp"},
+          {"code": 27526, "name": "Xã Tân Thới Nhì"},
+          {"code": 27529, "name": "Xã Tân Xuân"},
+          {"code": 27532, "name": "Xã Thới Tam Thôn"},
+          {"code": 27535, "name": "Xã Trung Chánh"},
+          {"code": 27538, "name": "Xã Xuân Thới Đông"},
+          {"code": 27541, "name": "Xã Xuân Thới Sơn"},
+          {"code": 27544, "name": "Xã Xuân Thới Thượng"}
+        ]
+      },
+      {
+        "code": 785,
+        "name": "Huyện Bình Chánh",
+        "wards": [
+          {"code": 27547, "name": "Thị trấn Tân Túc"},
+          {"code": 27550, "name": "Xã An Phú Tây"},
+          {"code": 27553, "name": "Xã Bình Chánh"},
+          {"code": 27556, "name": "Xã Bình Hưng"},
+          {"code": 27559, "name": "Xã Bình Lợi"},
+          {"code": 27562, "name": "Xã Đa Phước"},
+          {"code": 27565, "name": "Xã Hưng Long"},
+          {"code": 27568, "name": "Xã Lê Minh Xuân"},
+          {"code": 27571, "name": "Xã Phạm Văn Hai"},
+          {"code": 27574, "name": "Xã Phong Phú"},
+          {"code": 27577, "name": "Xã Quy Đức"},
+          {"code": 27580, "name": "Xã Tân Kiên"},
+          {"code": 27583, "name": "Xã Tân Nhựt"},
+          {"code": 27586, "name": "Xã Tân Quý Tây"},
+          {"code": 27589, "name": "Xã Vĩnh Lộc A"},
+          {"code": 27592, "name": "Xã Vĩnh Lộc B"}
+        ]
+      },
+      {
+        "code": 786,
+        "name": "Huyện Nhà Bè",
+        "wards": [
+          {"code": 27595, "name": "Thị trấn Nhà Bè"},
+          {"code": 27598, "name": "Xã Hiệp Phước"},
+          {"code": 27601, "name": "Xã Long Thới"},
+          {"code": 27604, "name": "Xã Nhơn Đức"},
+          {"code": 27607, "name": "Xã Phú Xuân"},
+          {"code": 27610, "name": "Xã Phước Kiển"},
+          {"code": 27613, "name": "Xã Phước Lộc"}
+        ]
+      },
+      {
+        "code": 787,
+        "name": "Huyện Cần Giờ",
+        "wards": [
+          {"code": 27616, "name": "Thị trấn Cần Thạnh"},
+          {"code": 27619, "name": "Xã An Thới Đông"},
+          {"code": 27622, "name": "Xã Bình Khánh"},
+          {"code": 27625, "name": "Xã Long Hòa"},
+          {"code": 27628, "name": "Xã Lý Nhơn"},
+          {"code": 27631, "name": "Xã Tam Thôn Hiệp"},
+          {"code": 27634, "name": "Xã Thạnh An"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": 1,
+    "name": "Thành phố Hà Nội",
+    "districts": [
+      {
+        "code": 1,
+        "name": "Quận Ba Đình",
+        "wards": [
+          {"code": 1, "name": "Phường Cống Vị"},
+          {"code": 4, "name": "Phường Điện Biên"},
+          {"code": 6, "name": "Phường Đội Cấn"},
+          {"code": 7, "name": "Phường Giảng Võ"},
+          {"code": 8, "name": "Phường Kim Mã"},
+          {"code": 10, "name": "Phường Liễu Giai"},
+          {"code": 13, "name": "Phường Ngọc Hà"},
+          {"code": 16, "name": "Phường Ngọc Khánh"},
+          {"code": 17, "name": "Phường Nguyễn Trung Trực"},
+          {"code": 19, "name": "Phường Phúc Xá"},
+          {"code": 22, "name": "Phường Quán Thánh"},
+          {"code": 25, "name": "Phường Thành Công"},
+          {"code": 28, "name": "Phường Trúc Bạch"},
+          {"code": 31, "name": "Phường Vĩnh Phúc"}
+        ]
+      },
+      {
+        "code": 2,
+        "name": "Quận Hoàn Kiếm",
+        "wards": [
+          {"code": 34, "name": "Phường Chương Dương"},
+          {"code": 37, "name": "Phường Cửa Đông"},
+          {"code": 40, "name": "Phường Cửa Nam"},
+          {"code": 43, "name": "Phường Đồng Xuân"},
+          {"code": 46, "name": "Phường Hàng Bạc"},
+          {"code": 49, "name": "Phường Hàng Bài"},
+          {"code": 52, "name": "Phường Hàng Bồ"},
+          {"code": 55, "name": "Phường Hàng Bông"},
+          {"code": 58, "name": "Phường Hàng Buồm"},
+          {"code": 61, "name": "Phường Hàng Đào"},
+          {"code": 64, "name": "Phường Hàng Gai"},
+          {"code": 67, "name": "Phường Hàng Mã"},
+          {"code": 70, "name": "Phường Hàng Trống"},
+          {"code": 73, "name": "Phường Lý Thái Tổ"},
+          {"code": 76, "name": "Phường Phan Chu Trinh"},
+          {"code": 79, "name": "Phường Phúc Tân"},
+          {"code": 82, "name": "Phường Tràng Tiền"},
+          {"code": 85, "name": "Phường Trần Hưng Đạo"}
+        ]
+      },
+      {
+        "code": 3,
+        "name": "Quận Tây Hồ",
+        "wards": [
+          {"code": 88, "name": "Phường Bưởi"},
+          {"code": 91, "name": "Phường Nhật Tân"},
+          {"code": 94, "name": "Phường Phú Thượng"},
+          {"code": 97, "name": "Phường Quảng An"},
+          {"code": 100, "name": "Phường Thụy Khuê"},
+          {"code": 103, "name": "Phường Tứ Liên"},
+          {"code": 106, "name": "Phường Xuân La"},
+          {"code": 109, "name": "Phường Yên Phụ"}
+        ]
+      },
+      {
+        "code": 4,
+        "name": "Quận Long Biên",
+        "wards": [
+          {"code": 112, "name": "Phường Bồ Đề"},
+          {"code": 115, "name": "Phường Cự Khối"},
+          {"code": 118, "name": "Phường Đức Giang"},
+          {"code": 121, "name": "Phường Gia Thụy"},
+          {"code": 124, "name": "Phường Giang Biên"},
+          {"code": 127, "name": "Phường Long Biên"},
+          {"code": 130, "name": "Phường Ngọc Lâm"},
+          {"code": 133, "name": "Phường Ngọc Thụy"},
+          {"code": 136, "name": "Phường Phúc Đồng"},
+          {"code": 139, "name": "Phường Phúc Lợi"},
+          {"code": 142, "name": "Phường Sài Đồng"},
+          {"code": 145, "name": "Phường Thạch Bàn"},
+          {"code": 148, "name": "Phường Thượng Thanh"},
+          {"code": 151, "name": "Phường Việt Hưng"}
+        ]
+      },
+      {
+        "code": 5,
+        "name": "Quận Cầu Giấy",
+        "wards": [
+          {"code": 154, "name": "Phường Dịch Vọng"},
+          {"code": 157, "name": "Phường Dịch Vọng Hậu"},
+          {"code": 160, "name": "Phường Mai Dịch"},
+          {"code": 163, "name": "Phường Nghĩa Đô"},
+          {"code": 166, "name": "Phường Nghĩa Tân"},
+          {"code": 169, "name": "Phường Quan Hoa"},
+          {"code": 172, "name": "Phường Trung Hòa"},
+          {"code": 175, "name": "Phường Yên Hòa"}
+        ]
+      },
+      {
+        "code": 6,
+        "name": "Quận Đống Đa",
+        "wards": [
+          {"code": 178, "name": "Phường Cát Linh"},
+          {"code": 181, "name": "Phường Hàng Bột"},
+          {"code": 184, "name": "Phường Khâm Thiên"},
+          {"code": 187, "name": "Phường Khương Thượng"},
+          {"code": 190, "name": "Phường Kim Liên"},
+          {"code": 193, "name": "Phường Láng Hạ"},
+          {"code": 196, "name": "Phường Láng Thượng"},
+          {"code": 199, "name": "Phường Nam Đồng"},
+          {"code": 202, "name": "Phường Ngã Tư Sở"},
+          {"code": 205, "name": "Phường Ô Chợ Dừa"},
+          {"code": 208, "name": "Phường Phương Liên"},
+          {"code": 211, "name": "Phường Phương Mai"},
+          {"code": 214, "name": "Phường Quang Trung"},
+          {"code": 217, "name": "Phường Quốc Tử Giám"},
+          {"code": 220, "name": "Phường Thành Công"},
+          {"code": 223, "name": "Phường Thổ Quan"},
+          {"code": 226, "name": "Phường Trung Liệt"},
+          {"code": 229, "name": "Phường Trung Phụng"},
+          {"code": 232, "name": "Phường Trung Tự"},
+          {"code": 235, "name": "Phường Văn Chương"},
+          {"code": 238, "name": "Phường Văn Miếu"}
+        ]
+      },
+      {
+        "code": 7,
+        "name": "Quận Hai Bà Trưng",
+        "wards": [
+          {"code": 241, "name": "Phường Bạch Đằng"},
+          {"code": 244, "name": "Phường Bạch Mai"},
+          {"code": 247, "name": "Phường Cầu Dền"},
+          {"code": 250, "name": "Phường Đống Mác"},
+          {"code": 253, "name": "Phường Đồng Nhân"},
+          {"code": 256, "name": "Phường Đồng Tâm"},
+          {"code": 259, "name": "Phường Lê Đại Hành"},
+          {"code": 262, "name": "Phường Minh Khai"},
+          {"code": 265, "name": "Phường Ngã Tư Sở"},
+          {"code": 268, "name": "Phường Ngọc Khánh"},
+          {"code": 271, "name": "Phường Phạm Đình Hổ"},
+          {"code": 274, "name": "Phường Phố Huế"},
+          {"code": 277, "name": "Phường Quỳnh Lôi"},
+          {"code": 280, "name": "Phường Quỳnh Mai"},
+          {"code": 283, "name": "Phường Thanh Lương"},
+          {"code": 286, "name": "Phường Thanh Nhàn"},
+          {"code": 289, "name": "Phường Trương Định"},
+          {"code": 292, "name": "Phường Vĩnh Tuy"}
+        ]
+      },
+      {
+        "code": 8,
+        "name": "Quận Hoàng Mai",
+        "wards": [
+          {"code": 295, "name": "Phường Đại Kim"},
+          {"code": 298, "name": "Phường Định Công"},
+          {"code": 301, "name": "Phường Giáp Bát"},
+          {"code": 304, "name": "Phường Hoàng Liệt"},
+          {"code": 307, "name": "Phường Hoàng Văn Thụ"},
+          {"code": 310, "name": "Phường Lĩnh Nam"},
+          {"code": 313, "name": "Phường Mai Động"},
+          {"code": 316, "name": "Phường Tân Mai"},
+          {"code": 319, "name": "Phường Thanh Trì"},
+          {"code": 322, "name": "Phường Thịnh Liệt"},
+          {"code": 325, "name": "Phường Trần Phú"},
+          {"code": 328, "name": "Phường Tương Mai"},
+          {"code": 331, "name": "Phường Vĩnh Hưng"},
+          {"code": 334, "name": "Phường Yên Sở"}
+        ]
+      },
+      {
+        "code": 9,
+        "name": "Quận Thanh Xuân",
+        "wards": [
+          {"code": 337, "name": "Phường Hạ Đình"},
+          {"code": 340, "name": "Phường Khương Đình"},
+          {"code": 343, "name": "Phường Khương Mai"},
+          {"code": 346, "name": "Phường Khương Trung"},
+          {"code": 349, "name": "Phường Kim Giang"},
+          {"code": 352, "name": "Phường Nhân Chính"},
+          {"code": 355, "name": "Phường Phương Liệt"},
+          {"code": 358, "name": "Phường Thanh Xuân Bắc"},
+          {"code": 361, "name": "Phường Thanh Xuân Nam"},
+          {"code": 364, "name": "Phường Thanh Xuân Trung"},
+          {"code": 367, "name": "Phường Thượng Đình"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": 48,
+    "name": "Thành phố Đà Nẵng",
+    "districts": [
+      {
+        "code": 490,
+        "name": "Quận Hải Châu",
+        "wards": [
+          {"code": 20194, "name": "Phường Bình Hiên"},
+          {"code": 20195, "name": "Phường Bình Thuận"},
+          {"code": 20197, "name": "Phường Hải Châu I"},
+          {"code": 20198, "name": "Phường Hải Châu II"},
+          {"code": 20200, "name": "Phường Hòa Cường Bắc"},
+          {"code": 20201, "name": "Phường Hòa Cường Nam"},
+          {"code": 20203, "name": "Phường Hòa Thuận Đông"},
+          {"code": 20204, "name": "Phường Hòa Thuận Tây"},
+          {"code": 20206, "name": "Phường Nam Dương"},
+          {"code": 20207, "name": "Phường Phước Ninh"},
+          {"code": 20209, "name": "Phường Thanh Bình"},
+          {"code": 20210, "name": "Phường Thạch Thang"},
+          {"code": 20212, "name": "Phường Thuận Phước"}
+        ]
+      },
+      {
+        "code": 491,
+        "name": "Quận Cẩm Lệ",
+        "wards": [
+          {"code": 20215, "name": "Phường Hòa An"},
+          {"code": 20216, "name": "Phường Hòa Phát"},
+          {"code": 20218, "name": "Phường Hòa Thọ Đông"},
+          {"code": 20219, "name": "Phường Hòa Thọ Tây"},
+          {"code": 20221, "name": "Phường Hòa Xuân"},
+          {"code": 20224, "name": "Phường Khuê Trung"}
+        ]
+      },
+      {
+        "code": 492,
+        "name": "Quận Thanh Khê",
+        "wards": [
+          {"code": 20227, "name": "Phường An Khê"},
+          {"code": 20230, "name": "Phường Chính Gián"},
+          {"code": 20233, "name": "Phường Hòa Khê"},
+          {"code": 20236, "name": "Phường Tam Thuận"},
+          {"code": 20239, "name": "Phường Tân Chính"},
+          {"code": 20242, "name": "Phường Thanh Khê Đông"},
+          {"code": 20245, "name": "Phường Thanh Khê Tây"},
+          {"code": 20248, "name": "Phường Thạc Gián"},
+          {"code": 20251, "name": "Phường Vĩnh Trung"},
+          {"code": 20254, "name": "Phường Xuân Hà"}
+        ]
+      },
+      {
+        "code": 493,
+        "name": "Quận Sơn Trà",
+        "wards": [
+          {"code": 20257, "name": "Phường An Hải Bắc"},
+          {"code": 20258, "name": "Phường An Hải Đông"},
+          {"code": 20260, "name": "Phường An Hải Tây"},
+          {"code": 20263, "name": "Phường Mân Thái"},
+          {"code": 20266, "name": "Phường Nại Hiên Đông"},
+          {"code": 20269, "name": "Phường Phước Mỹ"},
+          {"code": 20272, "name": "Phường Thọ Quang"}
+        ]
+      },
+      {
+        "code": 494,
+        "name": "Quận Ngũ Hành Sơn",
+        "wards": [
+          {"code": 20275, "name": "Phường Hòa Hải"},
+          {"code": 20278, "name": "Phường Hòa Quý"},
+          {"code": 20281, "name": "Phường Khuê Mỹ"},
+          {"code": 20284, "name": "Phường Mỹ An"}
+        ]
+      },
+      {
+        "code": 495,
+        "name": "Quận Liên Chiểu",
+        "wards": [
+          {"code": 20287, "name": "Phường Hòa Hiệp Bắc"},
+          {"code": 20290, "name": "Phường Hòa Hiệp Nam"},
+          {"code": 20293, "name": "Phường Hòa Khánh Bắc"},
+          {"code": 20296, "name": "Phường Hòa Khánh Nam"},
+          {"code": 20299, "name": "Phường Hòa Minh"}
+        ]
+      }
+    ]
+  }
+]
